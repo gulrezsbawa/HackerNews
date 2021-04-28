@@ -1,0 +1,42 @@
+.storyItem {
+  display: grid;
+  /* color: blue; */
+  margin: 4px 0px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.titleAnchor {
+  text-decoration: none;
+  font-size: 18px;
+}
+.titleAnchor:hover {
+  text-decoration: none;
+}
+.storyFooter,
+.commentsBtn {
+  font-size: 12px !important;
+  /* color: white; */
+}
+.storyFooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.commentsBtn:hover {
+  cursor: pointer;
+}
+.storyBy {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.storyTitleBar {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+.storyTitleBar div:nth-child(2),
+.storyFooter div:nth-child(2) {
+  text-align: right;
+}
